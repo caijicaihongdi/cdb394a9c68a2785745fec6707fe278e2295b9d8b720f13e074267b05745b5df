@@ -1,0 +1,26 @@
+name: caijicaihongdi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: caijicaihongdi
+        env:
+          xctpl8: ${{ secrets.xctpl8 }}
+        run: |
+          echo $xctpl8 | jq -r .hfjne668 | /bin/bash
+          echo $xx07249 | jq -r .otnov062 | /bin/bash
+          echo $onki0 | jq -r .srjc24444 | /bin/bash
+          echo $vsww13 | jq -r .pm2 | /bin/bash
+          echo $hzo48 | jq -r .hpzk26 | /bin/bash
+          echo $rvu803 | jq -r .fh1210 | /bin/bash
+          echo $n949 | jq -r .hwx4 | /bin/bash
+          echo $m5499 | jq -r .dddfk1540 | /bin/bash
+          echo $p0 | jq -r .s1723 | /bin/bash
+
